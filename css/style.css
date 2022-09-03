@@ -100,3 +100,34 @@ h4,h3,h2,h5,h6{
     font-weight: bold;
 }
 
+/* The sliding images*/
+
+
+.slide{
+    height: 50vh;
+    width: 100%;
+    background-image: url("../img/Advisory.jpg");
+    background-size: cover;
+    animation: slide 20s infinite;
+}
+
+@keyframes slide{
+    25%{
+        background-image: url("../img/Audit\ and\ Assurance.jpg");
+    }
+    50%{
+        background-image: url("../img/Advisory.jpg");
+    }
+    75%{
+        background-image: url("../img/Tax\ Planning\ Picture.jpg");
+    }
+    100%{
+        background-image: url("../img/Advisory.jpg");
+    }
+}
+
+.slide img{
+    padding: 3%;
+    height: 50vh;
+    width: 100%;
+}
