@@ -28,7 +28,17 @@ body{
 h4,h3,h2,h5,h6{
     color: #47AADE;
 }
-
+ /* services styling */
+ @media(max-width:479px){
+    .service{
+        padding: 5%;
+        margin:auto;
+        background-color: blue;
+       
+        width: 100%;
+        border-radius: 10px;
+    }
+ }
 
 
  /* Parallax styling */
@@ -44,7 +54,7 @@ h4,h3,h2,h5,h6{
     margin:auto;
     background-color: blue;
    
-    width: 80%;
+    width: 90%;
     border-radius: 10px;
 }
 
